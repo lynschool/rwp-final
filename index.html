@@ -15,11 +15,75 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- FontAwesome 6.2.0 JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+      integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link rel="stylesheet" href="/assets/theme.css" />
   </head>
 
   <body>
-    <header></header>
+    <!-- Navbar that's expanded on large screens, but has a collapsable on small/medium screens -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark rw-navbar">
+      <nav class="container-xxl flex-wrap flex-lg-nowrap">
+        <h4 class="p-3">Vacation Adversary - Thailand</h4>
+        <!-- Collapse button, only shows on small/medium -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <!-- Font Awesome bars icon -->
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- Navbar items, shows collapsed on small/medium screens -->
+        <div class="navbar-collapse collapse show" id="navbar">
+          <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+            <li class="nav-item col-6 col-md-auto me-2">
+              <a href="./index.html" class="btn btn-info">
+                <i class="fas fa-home pe-2"></i> Home
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto me-2">
+              <a href="./index.html" class="btn btn-info">
+                <i class="fas fa-location-arrow pe-2"></i> Location
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto me-2">
+              <a href="./index.html" class="btn btn-info">
+                <i class="fas fa-person-booth pe-2"></i> Famous People
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto me-2">
+              <a href="./index.html" class="btn btn-info">
+                <i class="fas fa-globe-asia pe-2"></i> Atmosphere
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto me-2">
+              <a href="./index.html" class="btn btn-info">
+                <i class="fas fa-info pe-2"></i> Country Info
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main></main>
     <footer></footer>
 
