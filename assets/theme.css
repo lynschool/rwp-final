@@ -1,0 +1,22 @@
+.rw-navbar {
+    padding: 0.75rem 0;
+    color: white;
+}
+
+/* Move the carousel controls down to line up with our dropshadow. */
+.carousel-control-prev, .carousel-control-next {
+    top: 15em !important;
+}
+
+/* Make our caption have a background, and always fill the width of the carousel. */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+    right: 0;
+    left: 0;
+}
+
+/* Make all carousel items be 32rem tall. */
+.carousel-item {
+    height: 32rem;
+    text-align: center;
+}
