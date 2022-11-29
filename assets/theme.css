@@ -20,3 +20,7 @@
     height: 32rem;
     text-align: center;
 }
+
+.card-img-top img {
+    max-height: 400px;
+}
