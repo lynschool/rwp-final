@@ -21,6 +21,10 @@
     text-align: center;
 }
 
+.card-img-top img {
+    max-height: 400px;
+}
+
 @media (min-width: 576px) {
     p, .lead {
       font-size: 1.2rem;
