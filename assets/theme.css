@@ -20,3 +20,31 @@
     height: 32rem;
     text-align: center;
 }
+
+.card-img-top img {
+    max-height: 400px;
+}
+
+@media (min-width: 576px) {
+    p, .lead {
+      font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    p, .lead {
+      font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    p, .lead {
+      font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    p, .lead {
+      font-size: 1.8rem;
+    }
+}
